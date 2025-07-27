@@ -71,7 +71,7 @@ tqdm
 
 python-Levenshtein
 
-Note: For NLTK, you may need to download WordNet data:
+#### Note: For NLTK, you may need to download WordNet data:
 
 python
 import nltk
@@ -107,7 +107,7 @@ generator = ContextualPasswordGenerator(language='en')
 passwords = generator._generate_weighted_combinations(user_info, count=10, min_length=8, max_length=16)
 print(passwords)
 ```
-## ⚠️ Ethical Disclaimer
+# ⚠️ Ethical Disclaimer
 This tool is strictly for educational and authorized penetration testing.
 Before usage, the program requires you to accept the Ethical Usage Agreement.
 Unauthorized use of this tool is illegal and unethical.
