@@ -53,12 +53,12 @@ This project is designed to improve cybersecurity awareness and is intended **on
 ```bash
 git clone https://github.com/YOUR_USERNAME/PLG_ysnrfd.git
 cd PLG_ysnrfd
-2. Install dependencies
-bash
-Copy
-Edit
+```
+### 2. Install dependencies
+```bash
 pip install -r requirements.txt
-3. Required Python Libraries
+```
+### 3. Required Python Libraries
 nltk (WordNet, Punkt tokenizer)
 
 pandas
@@ -74,30 +74,25 @@ python-Levenshtein
 Note: For NLTK, you may need to download WordNet data:
 
 python
-Copy
-Edit
 import nltk
 nltk.download('wordnet')
 nltk.download('punkt')
-🔧 Usage
-1. Run the tool directly
-bash
-Copy
-Edit
+## 🔧 Usage
+### 1. Run the tool directly
+
 python PLG_ysnrfd.py
-2. Analyze the strength of a password
-python
-Copy
-Edit
+
+### 2. Analyze the strength of a password
+```python
 from PLG_ysnrfd import PasswordEntropyAnalyzer
 
 analyzer = PasswordEntropyAnalyzer(language='en')
 result = analyzer.analyze_password_patterns("MyP@ssw0rd2024")
 print(result)
-3. Generate context-aware passwords
-python
-Copy
-Edit
+```
+
+### 3. Generate context-aware passwords
+```python
 from PLG_ysnrfd import ContextualPasswordGenerator
 
 user_info = {
@@ -111,20 +106,20 @@ user_info = {
 generator = ContextualPasswordGenerator(language='en')
 passwords = generator._generate_weighted_combinations(user_info, count=10, min_length=8, max_length=16)
 print(passwords)
-⚠️ Ethical Disclaimer
+```
+## ⚠️ Ethical Disclaimer
 This tool is strictly for educational and authorized penetration testing.
 Before usage, the program requires you to accept the Ethical Usage Agreement.
 Unauthorized use of this tool is illegal and unethical.
 Always ensure you have explicit written consent before testing any system.
 
-📂 Project Structure
-Copy
-Edit
+## 📂 Project Structure
+
 PLG_ysnrfd/
 │── PLG_ysnrfd.py
 │── README.md
 
-🧠 Algorithms
+## 🧠 Algorithms
 Entropy Calculation
 Uses Shannon entropy, keyboard pattern detection, and character frequency analysis to assess password complexity.
 
@@ -134,7 +129,7 @@ Predicts password habits based on cultural background, age, pets, children, and 
 Context-Aware Password Generation
 Combines personal data, cultural events, and randomized transformations to produce strong, unique passwords.
 
-📊 Roadmap
+## 📊 Roadmap
  Web-based interface (Streamlit/Flask)
 
  Integration with leaked password databases (HaveIBeenPwned API)
@@ -145,14 +140,14 @@ Combines personal data, cultural events, and randomized transformations to produ
 
  Plugin-based architecture for custom rules
 
-📝 License
+## 📝 License
 This project is released under the MIT License.
 See the LICENSE file for details.
 
-👤 Author
+## 👤 Author
 YSNRFD
 
 Telegram: @ysnrfd
 
-🌟 Support the Project
+## 🌟 Support the Project
 If you find this project useful, please give it a ⭐ on GitHub!
