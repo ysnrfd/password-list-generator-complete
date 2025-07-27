@@ -73,10 +73,11 @@ python-Levenshtein
 
 #### Note: For NLTK, you may need to download WordNet data:
 
-python
+```python
 import nltk
 nltk.download('wordnet')
 nltk.download('punkt')
+```
 ## 🔧 Usage
 ### 1. Run the tool directly
 
