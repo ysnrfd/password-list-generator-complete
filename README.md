@@ -149,5 +149,5 @@ YSNRFD
 
 Telegram: @ysnrfd
 
-## 🌟 Support the Project
+# 🌟 Support the Project
 If you find this project useful, please give it a ⭐ on GitHub!
