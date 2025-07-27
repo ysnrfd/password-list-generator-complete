@@ -51,8 +51,8 @@ This project is designed to improve cybersecurity awareness and is intended **on
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/PLG_ysnrfd.git
-cd PLG_ysnrfd
+git clone https://github.com/ysnrfd/password-list-generator-complete.git
+cd password-list-generator-complete
 ```
 ### 2. Install dependencies
 ```bash
@@ -116,7 +116,7 @@ Always ensure you have explicit written consent before testing any system.
 
 ## 📂 Project Structure
 ```structure
-PLG_ysnrfd/
+password-list-generator-complete/
 │── PLG_ysnrfd.py
 │── requirements.txt
 │── README.md
