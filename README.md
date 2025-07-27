@@ -118,6 +118,7 @@ Always ensure you have explicit written consent before testing any system.
 
 PLG_ysnrfd/
 │── PLG_ysnrfd.py
+│── requirements.txt
 │── README.md
 
 ## 🧠 Algorithms
