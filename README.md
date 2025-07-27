@@ -115,12 +115,12 @@ Unauthorized use of this tool is illegal and unethical.
 Always ensure you have explicit written consent before testing any system.
 
 ## 📂 Project Structure
-``
+```structure
 password-list-generator-complete/
 │── PLG_ysnrfd.py
 │── requirements.txt
 │── README.md
-``
+```
 
 ## 🧠 Algorithms
 Entropy Calculation
