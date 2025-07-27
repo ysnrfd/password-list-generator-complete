@@ -148,9 +148,8 @@ This project is released under the MIT License.
 See the LICENSE file for details.
 
 ## 👤 Author
-YSNRFD
-
-Telegram: @ysnrfd
+#### Developer: YSNRFD
+#### Telegram: @ysnrfd
 
 # 🌟 Support the Project
 If you find this project useful, please give it a ⭐ on GitHub!
