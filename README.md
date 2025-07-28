@@ -77,7 +77,7 @@ tqdm
 
 python-Levenshtein
 
-**Note: For NLTK, you may need to download WordNet data:**
+**Note: For NLTK, you may need to download WordNet and Punkt data:**
 
 ```python
 import nltk
@@ -86,6 +86,7 @@ nltk.download('punkt')
 ```
 
 ## 🔧 Usage
+
 **1. Run the tool directly**
 
 **Windows:**
