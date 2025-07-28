@@ -1,5 +1,6 @@
 # password-list-generator-complete
-pass list generator tool for ethical hacking, under development
+pass list generator tool for **Ethical Hacking**
+**under development**
 
 
 # 🔐 PLG_ysnrfd – Advanced Context-Aware Password Intelligence & Security Analyzer
@@ -50,15 +51,20 @@ This project is designed to improve cybersecurity awareness and is intended **on
 ## 📦 Installation
 
 ### 1. Clone the repository
+
 ```bash
 git clone https://github.com/ysnrfd/password-list-generator-complete.git
 cd password-list-generator-complete
 ```
+
 ### 2. Install dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
+
 ### 3. Required Python Libraries
+
 nltk (WordNet, Punkt tokenizer)
 
 pandas
@@ -71,15 +77,17 @@ tqdm
 
 python-Levenshtein
 
-#### Note: For NLTK, you may need to download WordNet data:
+**Note: For NLTK, you may need to download WordNet data:**
 
 ```python
 import nltk
 nltk.download('wordnet')
 nltk.download('punkt')
 ```
+
 ## 🔧 Usage
-### 1. Run the tool directly
+**1. Run the tool directly**
+
 **Windows:**
 ```python
 python PLG_ysnrfd.py
@@ -89,7 +97,8 @@ python PLG_ysnrfd.py
 python3 PLG_ysnrfd.py
 ```
 
-### 2. Analyze the strength of a password
+**2. Analyze the strength of a password**
+
 ```python
 from PLG_ysnrfd import PasswordEntropyAnalyzer
 
@@ -98,7 +107,8 @@ result = analyzer.analyze_password_patterns("MyP@ssw0rd2024")
 print(result)
 ```
 
-### 3. Generate context-aware passwords
+**3. Generate context-aware passwords**
+
 ```python
 from PLG_ysnrfd import ContextualPasswordGenerator
 
@@ -114,13 +124,16 @@ generator = ContextualPasswordGenerator(language='en')
 passwords = generator._generate_weighted_combinations(user_info, count=10, min_length=8, max_length=16)
 print(passwords)
 ```
+
 # ⚠️ Ethical Disclaimer
+
 This tool is strictly for educational and authorized penetration testing.
 Before usage, the program requires you to accept the Ethical Usage Agreement.
 Unauthorized use of this tool is illegal and unethical.
 Always ensure you have explicit written consent before testing any system.
 
 ## 📂 Project Structure
+
 ```structure
 password-list-generator-complete/
 │── PLG_ysnrfd.py
@@ -129,13 +142,14 @@ password-list-generator-complete/
 ```
 
 ## 🧠 Algorithms
-Entropy Calculation
+
+- **Entropy Calculation**
 Uses Shannon entropy, keyboard pattern detection, and character frequency analysis to assess password complexity.
 
-User Behavior Modeling
+- **User Behavior Modeling**
 Predicts password habits based on cultural background, age, pets, children, and emotional factors.
 
-Context-Aware Password Generation
+**Context-Aware Password Generation**
 Combines personal data, cultural events, and randomized transformations to produce strong, unique passwords.
 
 ## 📊 Roadmap
@@ -147,13 +161,14 @@ Combines personal data, cultural events, and randomized transformations to produ
 - Plugin-based architecture for custom rules
 
 ## 📝 License
-This project is released under the MIT License.
+
+This project is released under the **MIT License.**
 See the LICENSE file for details.
 
 ## 👤 Author
 
-#### Developer: YSNRFD
-#### Telegram: @ysnrfd
+**Developer: YSNRFD**
+**Telegram: @ysnrfd**
 
 # 🌟 Support the Project
 
