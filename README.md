@@ -50,20 +50,20 @@ This project is designed to improve cybersecurity awareness and is intended **on
 
 ## 📦 Installation
 
-### 1. Clone the repository
+**1. Clone the repository**
 
 ```bash
 git clone https://github.com/ysnrfd/password-list-generator-complete.git
 cd password-list-generator-complete
 ```
 
-### 2. Install dependencies
+**2. Install dependencies**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Required Python Libraries
+**3. Required Python Libraries**
 
 nltk (WordNet, Punkt tokenizer)
 
@@ -144,13 +144,13 @@ password-list-generator-complete/
 ## 🧠 Algorithms
 
 - **Entropy Calculation**
-Uses Shannon entropy, keyboard pattern detection, and character frequency analysis to assess password complexity.
+    Uses Shannon entropy, keyboard pattern detection, and character frequency analysis to assess password complexity.
 
 - **User Behavior Modeling**
-Predicts password habits based on cultural background, age, pets, children, and emotional factors.
+    Predicts password habits based on cultural background, age, pets, children, and emotional factors.
 
-**Context-Aware Password Generation**
-Combines personal data, cultural events, and randomized transformations to produce strong, unique passwords.
+- **Context-Aware Password Generation**
+    Combines personal data, cultural events, and randomized transformations to produce strong, unique passwords.
 
 ## 📊 Roadmap
 
