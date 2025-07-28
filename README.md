@@ -1,5 +1,5 @@
 # password-list-generator-complete
-pass list generator tool for **Ethical Hacking**
+pass list generator tool for **Ethical Hacking**  
 **under development**
 
 
@@ -146,10 +146,10 @@ password-list-generator-complete/
 - **Entropy Calculation**  
   Uses Shannon entropy, keyboard pattern detection, and character frequency analysis to assess password complexity.
 
-- **User Behavior Modeling**
+- **User Behavior Modeling**  
   Predicts password habits based on cultural background, age, pets, children, and emotional factors.
 
-- **Context-Aware Password Generation**
+- **Context-Aware Password Generation**  
   Combines personal data, cultural events, and randomized transformations to produce strong, unique passwords.
 
 ## 📊 Roadmap
