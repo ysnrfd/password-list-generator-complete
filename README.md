@@ -167,7 +167,7 @@ See the LICENSE file for details.
 
 ## 👤 Author
 
-**Developer: YSNRFD**
+**Developer: YSNRFD**  
 **Telegram: @ysnrfd**
 
 # 🌟 Support the Project
