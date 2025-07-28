@@ -143,7 +143,7 @@ password-list-generator-complete/
 
 ## 🧠 Algorithms
 
-- **Entropy Calculation**
+- **Entropy Calculation**  
   Uses Shannon entropy, keyboard pattern detection, and character frequency analysis to assess password complexity.
 
 - **User Behavior Modeling**
