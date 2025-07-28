@@ -162,7 +162,7 @@ password-list-generator-complete/
 
 ## 📝 License
 
-This project is released under the **MIT License.**
+This project is released under the **ysnrfd LICENSE.**
 See the LICENSE file for details.
 
 ## 👤 Author
