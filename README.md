@@ -6,7 +6,6 @@ pass list generator tool for **Ethical Hacking**
 # 🔐 PLG_ysnrfd – Advanced Context-Aware Password Intelligence & Security Analyzer
 
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Security Tool](https://img.shields.io/badge/Security-Analyzer-critical.svg)]()
 
 ---
