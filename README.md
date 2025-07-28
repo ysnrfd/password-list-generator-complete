@@ -126,7 +126,7 @@ passwords = generator._generate_weighted_combinations(user_info, count=10, min_l
 print(passwords)
 ```
 
-# ⚠️ Ethical Disclaimer
+## ⚠️ Ethical Disclaimer
 
 This tool is strictly for educational and authorized penetration testing.
 Before usage, the program requires you to accept the Ethical Usage Agreement.
@@ -171,6 +171,6 @@ See the LICENSE file for details.
 **Developer: YSNRFD**  
 **Telegram: @ysnrfd**
 
-# 🌟 Support the Project
+## 🌟 Support the Project
 
 **If you find this project useful, please give it a ⭐ on GitHub!**
