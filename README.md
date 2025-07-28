@@ -133,11 +133,8 @@ Context-Aware Password Generation
 Combines personal data, cultural events, and randomized transformations to produce strong, unique passwords.
 
 ## 📊 Roadmap
-- Web-based interface (Streamlit/Flask)
 
 - Integration with leaked password databases (HaveIBeenPwned API)
-
-- AI-based password strength recommendation system
 
 - More language packs (Italian, Russian, Arabic)
 
@@ -148,8 +145,10 @@ This project is released under the MIT License.
 See the LICENSE file for details.
 
 ## 👤 Author
+
 #### Developer: YSNRFD
 #### Telegram: @ysnrfd
 
 # 🌟 Support the Project
-If you find this project useful, please give it a ⭐ on GitHub!
+
+**If you find this project useful, please give it a ⭐ on GitHub!**
