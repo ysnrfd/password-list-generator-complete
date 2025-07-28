@@ -80,8 +80,14 @@ nltk.download('punkt')
 ```
 ## 🔧 Usage
 ### 1. Run the tool directly
-
+**Windows:**
+```python
 python PLG_ysnrfd.py
+```
+**Linux**:
+```python
+python3 PLG_ysnrfd.py
+```
 
 ### 2. Analyze the strength of a password
 ```python
